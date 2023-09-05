@@ -1,5 +1,5 @@
 
-
+import 'package:nubank_app/utils/colors.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatefulWidget {
@@ -26,7 +26,7 @@ class _SplashPageState extends State<SplashPage>{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(131, 10, 210, 1),
+      backgroundColor: roxoPrincipal,
       body: Center(
         child: Image.asset("img/logo.png"),
       )
